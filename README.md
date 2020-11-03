@@ -8,7 +8,7 @@
 
 ## by José Antonio Vacas @javacasm
 
-## Un ejemplo
+## Empecemos con un ejemplo...
 
 Un ejemplo para entender qué es esto del Open Hardware:
 
