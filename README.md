@@ -12,7 +12,7 @@
 
 Un ejemplo para entender qué es esto del Open Hardware:
 
-* En ¿2009? Arduino crea una primera versión ...
+* En ¿2009? Arduino crea una primera versión ... TODO
 
 * El usuario **Joo** (Johannes) publica todos los detalles de su [proyecto plotClock](http://wiki.fablab-nuernberg.de/w/Ding:Plotclock) dando detalles para construirlo, diseños 3D y código fuente para que cualquiera pueda reproducirlo con licencia CC, utilia la placa y el código de Arduino
 
@@ -35,21 +35,39 @@ Un ejemplo para entender qué es esto del Open Hardware:
 
     ![plotclock-caritas](./images/PlotClock-caritas.gif)
 
-El desarrollo del **Open Hardware** ha permitido la aparición de productos como **Arduino** o **micro>ibt**  cuyo diseño y  documentación han sido publicadas completamente bajo licencias **Libres**
 
-A partir de estos desarrollos se han creado proyectos tan exitosos como **RepRap** que han hecho accesible al público herramientas como las **impresoras 3D**
+El desarrollo del **Open Hardware** ha permitido la aparición de productos como **Arduino** o **micro:bit**  cuyo diseño y  documentación han sido publicadas completamente bajo licencias **Libres**
 
-Alrededor de estos proyectos se han creado enormes comunidades que han facilitado el aprendizaje y por tanto la creación de prototipos.
+TODO: Enlaces a los tweets y publicaciones
+
+A partir de estos desarrollos se han creado proyectos tan exitosos como **RepRap** que han hecho accesible al público herramientas como las **impresoras 3D**, permitiendo que cualquier persona con unos mínimos conocimientos técnica pueda montarlas y utilizarlas
+
+TODO: Historia del movimiento REPREAP
+
+En España su difusión vino de la mano de los tutoriales de @obijuan 
+
+TODO: desarrollar
+
+
+Ejemplos de impresión 3D:
+
+[Microscopio impreso](https://www.thingiverse.com/thing:77450) (sólo necesita las lentes y la iluminación)
+
+![](./images/microscope_preview_featured.jpg)
+
+
+TODO:
+
+Alrededor de estos proyectos se han creado enormes comunidades que han facilitado el aprendizaje y por tanto la creación de prototipos, donde se comparten toda la documentación de proyectos, como por ejemplo [Hackster.io](https://Hackster.io) que lleva Alex Glow (@glowascii)  
+
+![Alex Glow](https://kk.org/cooltools/files/2018/07/Alex-Glow.jpg)
 
 También se ha creado una importante economía, con grandes empresas como **Adafruit** creada y dirigida por Limor Fries (@adafruit), gran maker, gran empresaria, "adalid" del movimiento OpenSource y de la inclusión de la mujer en el mundo maker y de la ingeniería
 
 ![](https://yydxg3i41b1482qi9hidybgs-wpengine.netdna-ssl.com/wp-content/uploads/gravity_forms/251-bd9fa9da008dddf723c2ed7fb739c497/2020/09/Limor.png)
 
-o Sparkfun
+o Sparkfun TODO:
 
-o comunidades de maker donde se comparten toda la documentación de proyectos, como por ejemplo [Hackster.io](https://Hackster.io) que lleva Alex Glow (@glowascii)  
-
-![Alex Glow](https://kk.org/cooltools/files/2018/07/Alex-Glow.jpg)
 
 Todo esto ha fomentado la difusión de las licencias libres haciendo conscientes a la gran mayoría de sus usuarios de las ventajas que aporta el trabajar en abierto y la publicación de manera libre y detallada nuestros proyectos
 
@@ -68,10 +86,9 @@ Algunos ejmplos de estos proyectos pueden ser estos equipos de laboratorio bioqu
 
 
 * O una termocicladora (para hacer PCRs) totalmente open 
-![equipo](./images/miniPCR.jpg)
+    ![equipo](./images/miniPCR.jpg)
 
 * O una incubadora biológica
-
 ![equipo 3](./images/incubadora.jpg)
 
 Con estos materiales podríamos hacer (salgo por el tema de la seguridad biológica de las muestras) los tests PCRs que se hace en los hospitales
@@ -81,3 +98,10 @@ Con estos materiales podríamos hacer (salgo por el tema de la seguridad biológ
 [Curso de Software Libre](https://abierta.ugr.es/software_libre/)
 
 [Vídeos](https://osl.ugr.es/videos/)
+
+enlaces TODO: 
+
+reprap
+tutoriales obijuan
+historia adafruit
+...
