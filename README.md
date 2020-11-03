@@ -10,7 +10,7 @@
 
 ## Empecemos con un ejemplo...
 
-Un ejemplo para entender qué es esto del Open Hardware:
+Un ejemplo para entender qué es 'esto del Open Hardware:
 
 * En ¿2009? Arduino crea una primera versión ... TODO
 
