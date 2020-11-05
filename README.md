@@ -25,7 +25,7 @@ Un ejemplo para entender qué es 'esto del Open Hardware:
 
 * A partir de esos diseños la empresa [M5Stack]() crea el [m5Stick](https://m5stack.com/collections/m5-core/products/m5stickc-plus-esp32-pico-mini-iot-development-kit?variant=35275856609444) un sistema integrado compatible con Arduino y de un tamaño superreducido
 
-![m5Stick](./images/m5stick.jpg)
+    ![m5Stick](./images/m5stick.jpg)
 
 * Luis Llamas, un conocido maker,  crea ESP32_faces, un software que permite mostrar "caritas" y "ojitos" en un M5Stack publicando con licencia  todo su 
 
@@ -98,6 +98,10 @@ Con estos materiales podríamos hacer (salgo por el tema de la seguridad biológ
 [Curso de Software Libre](https://abierta.ugr.es/software_libre/)
 
 [Vídeos](https://osl.ugr.es/videos/)
+
+
+[Diseño arduino](https://store.arduino.cc/arduino-uno-rev3)
+[Diseño micro:bit](https://tech.microbit.org/hardware/reference-design/)
 
 enlaces TODO: 
 
