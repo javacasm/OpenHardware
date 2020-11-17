@@ -101,7 +101,10 @@ Con estos materiales podríamos hacer (salgo por el tema de la seguridad biológ
 
 
 [Diseño arduino](https://store.arduino.cc/arduino-uno-rev3)
+
 [Diseño micro:bit](https://tech.microbit.org/hardware/reference-design/)
+
+[Cómo documentar proyectos Open Hardware](https://www.linkedin.com/pulse/c%25C3%25B3mo-documentar-proyectos-de-hardware-abierto-parte-cesar-garcia/)
 
 enlaces TODO: 
 
@@ -109,3 +112,27 @@ reprap
 tutoriales obijuan
 historia adafruit
 ...
+
+[Más sobre el tema](https://github.com/javacasm/ILoveOpen/blob/master/contenidos.md)
+
+
+## Ejemplos
+
+[Cortacesped](https://twitter.com/FreeCADNews/status/1327201595944296448)
+
+![](https://pbs.twimg.com/media/Emsp8VEXEAIhYM3?format=jpg)
+
+
+## Makers ante  la pandemia
+
+Durante la pandemia y ante la petición de ayuda de los sanitarios, equipos de makers de toda España se autoorganizaron para aportar todo tipo de equipamiento de protección, consiguiendo generar miles de caretas, salvaorejas, adaptadores para equipos de respiración ... 
+
+### Equipo de protección EPI
+![](https://cdn01.diariandorra.ad/uploads/imagenes/bajacalidad/2020/04/01/_93internet_a6304f26.jpg?4a3562ca6397e9fcab79ffef6549d7c2)
+![](https://lh3.googleusercontent.com/proxy/vejHQnwk2SABgjyehJcvexPFsLNwGyWC3jz6gqbxi_BmAu-gJKLTMBLLqVa-oWQliNRdV6KO1FUX82y1I_ugurOsKypDrY_bB4ZJsvQvwSRAnfvqdwwRoj7GHQ3cAQgboA)
+![](https://s2.lanzadigital.com/wp-content/uploads/2020/05/M%C3%A1scara-EPI-300x533.jpg)
+### Respirador
+![](https://i.blogs.es/6916c2/etjjne-xkakh-q2/1366_2000.jpeg)
+![](https://i.blogs.es/bbabbf/etorgcaxgaaufc3/1366_2000.jpg)
+### Mascarilla libremask
+![](https://album.mediaset.es/eimg/10000/2020/11/09/clipping_cfVQvR_2976.jpg?w=480)
