@@ -62,6 +62,10 @@ Alrededor de estos proyectos se han creado enormes comunidades que han facilitad
 
 ![Alex Glow](https://kk.org/cooltools/files/2018/07/Alex-Glow.jpg)
 
+Otra importante comunidad online, la de hackaday, con cada vez más presencia femenina
+
+![](./images/HackaDay.png)
+
 También se ha creado una importante economía, con grandes empresas como **Adafruit** creada y dirigida por Limor Fries (@adafruit), gran maker, gran empresaria, "adalid" del movimiento OpenSource y de la inclusión de la mujer en el mundo maker y de la ingeniería
 
 ![](https://yydxg3i41b1482qi9hidybgs-wpengine.netdna-ssl.com/wp-content/uploads/gravity_forms/251-bd9fa9da008dddf723c2ed7fb739c497/2020/09/Limor.png)
@@ -92,6 +96,10 @@ Algunos ejmplos de estos proyectos pueden ser estos equipos de laboratorio bioqu
 ![equipo 3](./images/incubadora.jpg)
 
 Con estos materiales podríamos hacer (salgo por el tema de la seguridad biológica de las muestras) los tests PCRs que se hace en los hospitales
+
+Y estos equipos no son cosa de "frikis", ya mismísima revista Nature se ha hecho echo en varios artículos sobre el tema: 
+* [A DIY approach to automating your lab](https://www.nature.com/articles/d41586-019-01590-z)
+* [How DIY technologies are democratizing science](https://www.nature.com/articles/d41586-020-03193-5)
 
 ## Recursos
 
