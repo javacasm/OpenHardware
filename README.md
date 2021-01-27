@@ -10,97 +10,162 @@
 
 ## Empecemos con un ejemplo...
 
-Un ejemplo para entender qué es el Open Hardware:
+Veamos un ejemplo para entender qué es el Open Hardware:
 
-* Alrededor de 2005 un grupo de ingenieros de diversos paises que trabajaban ayudando a artistas y diseñadores con la parte electrónica y programación, deciden crear un miniordenador (microcontrolador) sencillo de usar y programar, versátil y barato, con el que pudieran trabajar directamente gente sin una expecilización técnica.
 
-Decidieron compartir todos los detalles para que cualquiera con unos mínimos conocimientos se pueda construir uno, compartiendo todos la información y el código de los programas para usarlo y programarlo.
+1) Alrededor de 2005 un grupo de ingenieros de diversos países que trabajaban ayudando a artistas y diseñadores con la parte electrónica y con la programación, deciden crear un miniordenador (un [*microcontrolador*](https://es.wikipedia.org/wiki/Microcontrolador) para ser más exactos) sencillo de usar y programar, versátil y barato, con el que pudieran trabajar directamente gente sin una especialización técnica.
 
-Lo llamaron Arduino y es un excelente ejemplo de un proyecto Open Hardware y Open Source. De aquí nació una empresa también llamada Arduino.
+Decidieron compartir todos los detalles necesarios para que cualquiera con unos mínimos conocimientos pudiera construir uno. Compartieron toda la información de su diseño electrónico y el código de los programas para usarlo y programarlo.
+
+Lo llamaron [*Arduino*](https://es.wikipedia.org/wiki/Arduino) y es un excelente ejemplo de un proyecto Open Hardware y Open Source. De aquí nació una empresa también llamada Arduino, que vende millones de unidades de unos productos de los que da todos los detalles para que otros los fabriquen.
 
 ![Diseño Arduino](./images/DisenioArduino.png)
+> *Detalles del diseño de una placa Arduino*
 
-Decimos que un proyecto es Open Hardware cuando tenemos toda la información necesaria para reproducirlo: todos los esquemas y detalles para construir sus electrónica o las piezas que lo componen
-
-
-* Unos años después el usuario **Joo** (Johannes) publica todos los detalles de su [proyecto plotClock](http://wiki.fablab-nuernberg.de/w/Ding:Plotclock) dando detalles para construirlo, diseños 3D y código fuente para que cualquiera pueda reproducirlo con licencia CC, utilia la placa y el código de Arduino
-
-    ![PlotClock by Joo](./images/plotclock_preview_featured.jpg)
+Decimos que un proyecto es **Open Hardware** cuando tenemos toda la información necesaria para reproducirlo: todos los esquemas electrónicos, el diseño de sus piezas y los detalles para construirlo, su electrónica o las piezas que lo
+componen.
 
 
-* Por otro lado la empresa Expressif crea un dispositivo [ESP32](https://www.espressif.com/en/products/modules/esp32) haciéndolo compatible con el diseño de Arduino, con su software y libera toda la documentación, los detalles y los diseños necesarios para que cualquiera pueda usarlos. Es mucho más potente y avanzado que Arduino. Posteriormente la empresa Arduino incluye en algunas de sus placas las mejoras e incluso hay placas arduino que tiene un chip de Expressif 
+2) Unos años después el usuario **Joo** (Johannes) publica todos los detalles de su [proyecto plotClock](http://wiki.fablab-nuernberg.de/w/Ding:Plotclock) dando detalles para construirlo, diseños 3D de sus piezas, montaje de la electrónica y el código fuente para que cualquiera pueda reproducirlo con licencia CC. En su proyecto utiliza la placa y el código de Arduino.
+
+![PlotClock by Joo](./images/plotclock_preview_featured.jpg)
+> *PlotClock by Joo*
+
+3) Por otro lado, la empresa [*Expressif*](https://www.espressif.com/) crea un nuevo dispositivo, el [ESP32](https://www.espressif.com/en/products/modules/esp32) haciéndolo compatible con el diseño de Arduino, con su software y [*libera toda la documentación, los detalles y los diseños*](https://www.espressif.com/en/support/documents/technical-documents) necesarios para que cualquiera pueda usarlos. Es mucho más potente y avanzado que Arduino. Posteriormente la empresa Arduino incluye en algunas de sus placas las mejoras e incluso hay placas Arduino que tiene un chip de Expressif. En este caso vemos como el compartir los avances libremente hace que el diseño se realimenta con las mejoras, permitiendo que el diseño original mejore. El Open Hardware es útil incluso para una empresa que vende sus productos.
 
     ![ESP32](./images/ESP32.jpg)
+> *ESP32*
 
-* A partir de esos diseños otra empresa [M5Stack](https://m5stack.com/) crea el [m5Stick](https://m5stack.com/collections/m5-core/products/m5stickc-plus-esp32-pico-mini-iot-development-kit?variant=35275856609444) un sistema integrado compatible con Arduino y de un tamaño superreducido. Por supuesto todo el diseño está liberado como Open Hardware
+4) A partir de esos diseños otra empresa [M5Stack](https://m5stack.com/) crea el [m5Stick](https://m5stack.com/collections/m5-core/products/m5stickc-plus-esp32-pico-mini-iot-development-kit?variant=35275856609444), un sistema integrado compatible con Arduino y con el ESP32 del que hablamos antes, pero de un tamaño superreducido y que además integra muchos componentes y mejores. Por supuesto todo su diseño está liberado como Open Hardware
 
     ![m5Stick](./images/m5stick.jpg)
+> *m5Stick*
 
-* Luis Llamas, un conocido maker,  crea ESP32_faces, un software que permite mostrar "caritas" y "ojitos" en un M5Stack publicando con licencias libres todo sus detalles
+5) [*Luis Llamas*](https://www.luisllamas.es/), un conocido maker, crea [*ESP32\_faces*](https://github.com/luisllamasbinaburo/ESP32_Faces/blob/master/EyePresets.h), un software que permite mostrar "caritas" y "ojitos" en un M5Stack publicando con licencia libre todos los detalles para reproducirlo. A día de hoy, ESP\_faces es uno de los ejemplos que la empresa m5Stack incluye en su documentación.
 
     ![Caritas](./images/caritas.gif)
+> * Caritas de Luis Llamas*
 
-* Nochi (@shikarunochi), un maker japonés, uniendo todos estos recursos ha montado esta monada de robot escribiente (aunque parece que tiene mejorar su letra...)
+6) Nochi ([*@shikarunochi*](https://github.com/shikarunochi)), un maker japonés, uniendo todos estos recursos ha montado esta monada de robot escribiente (aunque parece que tiene mejorar su letra...), con el m5Stick, plotclock y “Caritas” de Luis Llamas.
 
     ![plotclock-caritas](./images/PlotClock-caritas.gif)
+> *Caritas, haciendo gestos molones*
+
+En este paseo por diferentes proyectos hemos visto cómo liberar los proyectos y compartir los detalles de su construcción nos permite crear cada vez proyectos más potentes y de un modo más sencillo.
+
+También hemos visto cómo la filosofía Open Source es útil también para las empresas facilitando el desarrollo de nuevos productos, el trabajar en contacto con sus clientes, facilitandoles ejemplos para usar sus productos y al mismo tiempo usando los proyectos de éstos para mejorar su documentación. Más adelante veremos algunos ejemplos de estas
+empresas con una vocación 100% Open Source.
+
+Tanto el desarrollo de estos proyectos, como su nacimiento (como en el caso de Arduino, donde sus creadores se conocieron a través de Internet) no hubiera sido posible sin la existencia de Comunidades Open Hardware, donde se han compartido ideas, dudas, proyectos,....
 
 ## Comunidades Open Hardware
 
-El desarrollo del **Open Hardware** ha permitido la aparición de productos como **Arduino** o **micro:bit**  cuyo diseño y  documentación han sido publicadas completamente bajo licencias **Libres**
+El desarrollo del **Open Hardware** ha permitido la aparición de productos como [***Arduino***](https://www.arduino.cc/) o [***micro:bit***](https://microbit.org/) cuyo diseño y documentación han sido publicadas completamente bajo [***licencias Libres***](https://es.wikipedia.org/wiki/Contenido_libre), pero algunos de estos productos nacieron de la comunicación entre usuarios de comunidades online.
 
-Todo este movimiento ha sido posible a la aparición de  enormes comunidades que han facilitado el aprendizaje y por tanto la creación de prototipos, donde se comparten toda la documentación de proyectos, como por ejemplo [Hackster.io](https://Hackster.io) que lleva **Alex Glow** (@glowascii)  con su inseparable mascota cibernética [Archimedes](https://www.hackster.io/glowascii/archimedes-the-ai-robot-owl-325ff5)
+### Hackster.io
+
+Todo este movimiento ha sido posible gracias a la aparición de enormes comunidades que han facilitado el aprendizaje y por tanto la creación de prototipos, donde se comparten toda la documentación de proyectos, como por ejemplo [Hackster.io](https://hackster.io) que lleva **Alex Glow** ([*@glowascii*](https://twitter.com/glowascii?lang=es)) con su
+inseparable mascota cibernética [*Archimedes*](https://www.hackster.io/glowascii/archimedes-the-ai-robot-owl-325ff5).
 
 ![Alex Glow](https://kk.org/cooltools/files/2018/07/Alex-Glow.jpg)
+> *Alex Glow y su mascota cibernética Archimedes*
 
-Otra importante comunidad online, la de [Hackaday](https://hackaday.com/), con cada vez más presencia femenina
+En esta comunidad encontramos todo tipo de proyectos electrónicos, con enlaces a la documentación necesaria, listados de componentes y todo lo que necesitamos para reproducir un proyecto
+
+### Hackaday
+
+Otra importante comunidad online, y bastante antigua es [*Hackaday*](https://hackaday.com/), con cada vez más presencia femenina, como podemos ver en la portada.
+
+Originariamente, como su nombre indica, publicaban un “hack” cada día, un proyecto molón o algo interesante. Actualmente además de proporcionar espacio para que se publiquen proyectos, organizan [*concursos*](https://prize.supplyframe.com/), cursos, tienen un [*mercado*](https://www.tindie.com) para que los participantes vendamos nuestros productos ...
 
 ![](./images/HackaDay.png)
 
-Otra comunidad básica para el desarrollo del movimiento Open Hardware ha sido [Instructables](https://www.instructables.com/). 
+### Instructables
+
+Otra comunidad básica para el desarrollo del movimiento Open Hardware ha sido [Instructables](https://www.instructables.com/), originariamente independiente, aunque a día de hoy es propiedad del gigante del software Cad Autodesk.
 
 ![Instructables](./images/Instructables.png)
 
-Con solo entrar a su página vemos como el concepto de Open Hardware no solo se refiere a la parte de electrónica, también se pueden desarrollar cualquier tipo proyecto con esta licencia, como puede ser este [cortacesped](https://twitter.com/FreeCADNews/status/1327201595944296448) diseñado con la herramienta [Freecad](https://www.freecadweb.org/) también Open source
+Con solo entrar a su página vemos cómo el concepto de Open Hardware no solo se refiere a proyectos electrónicos, también se pueden desarrollar cualquier proyecto con esta licencia, tanto de diseño 3D, como de [*modificaciones* *para nuestro Toyota Prius*](https://www.instructables.com/How-to-Jump-Start-a-Toyota-Prius/)
+
+Existen muchos proyectos de sistemas de riego, como
+[*éste*](https://www.instructables.com/ Automatic-Irrigation-System-Arduino-With-Usb-Type-/), o control de toldos con seguridad NFC como [*este otro*](https://www.instructables.com/Smart-Balcony-Shade-Using-NFC/) o casi cualquier cosa que se nos ocurra, como puede ser este [cortacesped](https://twitter.com/FreeCADNews/status/1327201595944296448) diseñado con la herramienta [*Freecad*](https://www.freecadweb.org/) también Open source
 
 ![](https://pbs.twimg.com/media/Emsp8VEXEAIhYM3?format=jpg)
 
 ## Empresas con filosofía Open Hardware
 
-También se ha creado una importante economía, con empresas que han nacido desde el convencimiento de compartir todos sus diseños como Open Hardware como **[Adafruit](https://www.adafruit.com/)** creada y dirigida por **Limor Fries** (@adafruit), gran maker, gran empresaria, "adalid" del movimiento OpenSource y de la inclusión de la mujer en el mundo maker y de la ingeniería
+El Open Hardware también ha permitido la creación de empresas exitosas, con empresas que han nacido desde el convencimiento de compartir todos sus diseños con licencias Open Hardware como [**Adafruit**](https://www.adafruit.com/) creada y dirigida por [***Limor Fries***](https://es.wikipedia.org/wiki/Limor_Fried), gran maker, gran empresaria, impulsora desde ejemplo del movimiento Open Source y de la inclusión de la mujer en el mundo maker y de la ingeniería. 
 
 ![](https://yydxg3i41b1482qi9hidybgs-wpengine.netdna-ssl.com/wp-content/uploads/gravity_forms/251-bd9fa9da008dddf723c2ed7fb739c497/2020/09/Limor.png)
 
-o [Sparkfun](https://www.sparkfun.com/) a partir de cuyos diseños se han creado muchas otras empresas especializadas en mejorar o abaratar sus diseños.
+Otra empresa con vocación Open Source, es también [Sparkfun](https://www.sparkfun.com/) a partir de cuyos diseños se han creado muchas otras empresas especializadas en mejorar o abaratar sus diseños.
+
+No podemos olvidarnos por supuesto de [*Arduino*](https://www.arduino.cc/) que a día de hoy es una gran empresa y a la que tenemos que culpar del éxito del movimiento Maker.
+
+## Licencias Open Hardware para empresas
+
+Por aclarar conceptos ¿puede una empresa vender un producto que otra empresa licencia como Open Hardware? Todo esto va a depender de la licencia que use la empresa creadora.
+
+Veamos 2 ejemplos:
+
+* Adafruit vende una placa llamada [*Feather*](https://www.adafruit.com/product/2830), de la que > comparte el [*diseño*](https://learn.adafruit.com/assets/28509) con licencia [*CC BY-SA 3.0*](https://creativecommons.org/licenses/by-sa/3.0/es/) (pide > atribución y que se respete la licencia y se compartan las  modificaciones). Si quisiera compartirlo pero que nadie pudiera venderlo podría usar la licencia [*CC BY-NC 4.0*](https://creativecommons.org/licenses/by-nc/4.0/) que lo prohíbe específicamente.
+
+* Arduino en la [*documentación de sus placas*](https://content.arduino.cc/assets/UNO-TH_Rev3e_sch.pdf) también usa la misma licencia, lo que ha permitido que muchas otras empresas fabriquen placas clónicas de las suyas. Pero incluye cláramente que no pueden llamarlas “Arduino”, puesto que esto es una marca comercial, por eso proliferan las placas llamadas ...duino (añada el prefijo que más les guste)
+
 
 ## Impresión 3D
 
-A partir de estos desarrollos se han creado proyectos tan exitosos como **[RepRap](https://reprap.org/wiki/RepRap)**, abanderado por Adrian Bowyer que han hecho accesible al público herramientas como las **impresoras 3D**, permitiendo que cualquier persona con unos mínimos conocimientos técnica pueda montarlas y utilizarlas.
+A partir de estos desarrollos abiertos se han creado proyectos tan exitosos como [**RepRap**](https://reprap.org/wiki/RepRap), abanderado por [*Adrian Bowyer*](https://es.wikipedia.org/wiki/Adrian_Bowyer), originariamente destinado a crear prototipos en los laboratorios de un modo más rápido y eficiente y que ha hecho accesible a todo el público las **impresoras 3D**, permitiendo que cualquier persona con unos mínimos conocimientos técnicos pueda montarlas y utilizarlas.
 
 ![Primera replicación](./images/First_replication.jpg)
+> *Primera replicación de una impresora 3D.*
 
-En España, este movimiento tuvo su difusión de la mano de los [tutoriales de Juan Gonzalez](http://www.iearobotics.com/wiki/index.php?title=Guia_de_montaje_de_la_Prusa_2) @obijuan 
+Adrian Bowyer creó una impresora que era capaz de imprimir ciertas piezas (de plástico) que no podía comprar, y que permitieron mejorar su diseño. Imprimió unas piezas nuevas que regaló a su compañero de laboratorio junto con todos los detalles para reproducir su impresora y este puedo hacer una nueva impresora (la que aparece como “Child” en la foto)
 
-El mundo de la  impresión 3D nos da un gran ejemplo de lo que podemos conseguir dentro del Open Hardware: diseño que podemos descargar y reproducir con nuestra impresora 3D
+De hecho, compartió sus diseños en internet permitiéndonos a todos acceder a esa tecnología.
 
-[Microscopio impreso](https://www.thingiverse.com/thing:77450) (sólo necesita las lentes y la iluminación)
+En la imagen se ve una impresión 3D hecha por mismísimo Alberto Chicotw (sí, el cocinero) a partir de un diseño compartido en internet
+
+TODO FOTO DE CHICOTE
+
+A día de hoy existen empresas que venden cientos de miles de impresoras 3D al año, compartiendo todo el diseño como [*Prusa Research*](https://www.prusa3d.es/) del carismático [*Joseph Prusa*](https://www.prusa3d.es/sobre-nosotros/#timeline)
+
+
+En España, este movimiento tuvo su difusión de la mano de los [tutoriales de Juan González](http://www.iearobotics.com/wiki/index.php?title=Guia_de_montaje_de_la_Prusa_2) [*@obijuan*](http://www.iearobotics.com/wiki/index.php?title=Obijuan_Academy) que nos permitieron aprender sobre el uso de las impresoras y el software libre de diseño 3D como [*FreeCad*](https://www.freecadweb.org/). 
+
+El mundo de la impresión 3D nos da un gran ejemplo de lo que podemos conseguir dentro del Open Hardware: diseños y proyectos que podemos descargar y reproducir con nuestra impresora 3D, como por ejemplo este [Microscopio impreso](https://www.thingiverse.com/thing:77450) (sólo necesita las lentes y la iluminación)
 
 ![](./images/microscope_preview_featured.jpg)
 
-Todo esto ha fomentado la difusión de las licencias libres haciendo conscientes a la gran mayoría de sus usuarios de las ventajas que aporta el trabajar en abierto y la publicación de manera libre y detallada nuestros proyectos
+En los diferentes repositorios de modelos 3D, como [*Thingiverse*](https://www.thingiverse.com/) o [*Cult3d*](https://cults3d.com/es) o [*Minifactory*](https://www.myminifactory.com/es/) nos vamos a encontrar diseños de todo tipo, con diferentes licencias, unos serán gratuitos y otros de pago.
 
-Con estos elementos al alcance de la mayoría se popularizado y simplificado tanto las herramientas de prototipado que practicamente cualquiera puede trabajar y crear todo tipo de proyectos.
+## Open FPGAs
 
-En particular estas plataformas de prototipado rápido nos permiten crear equipamiento para laboratorio, máquinas que tienen el 90% de la funcionalidad de los equipos y con un coste de menos del 10%.
+Vamos a ver otro ejemplo de cómo el movimiento Open Hardware puede revolucionar un sector. 
 
-Además, **la naturaleza colaborativa y abierta de estos proyectos, nos amina a tomar un papel más activo en ellos**, permitiendonos a los usuarios de manera natural  participar en el desarrollo de estos equipos, mejorando iterativamente sus prestaciones, aportando mejoras a la funcionalidad, documentación o ejemplos de uso.
+Desde hace muchos años (a mediados de los 80s) existen unos chips llamados [***FPGAs***](https://es.wikipedia.org/wiki/Field-programmable_gate_array), que nos permiten crear en su interior una gran variedad de circuitos. 
 
-En definitiva, todo este ecosistema abierto de conocimientos nos hace día a día tener más control sobre la tecnología que usamos, **permitiendos pasar de meros consumidores a dueños de esta tecnología**
+Podemos pensar que una FPGA es como un circuito en blanco, repleto de piezas desconectadas y que mediante cierto proceso, parecido a la programación, podemos convertir en un circuito concreto. Si detectamos un error podemos volver a repetir el proceso arreglando el error.
+
+El proceso para “programar” las FPGAs era algo cerrado por los fabricantes, que obligaban a sus usuarios a comprar un software capaz de hacer ese proceso. Debido a esto su uso estaba restringido a grandes proyectos con abultados presupuestos.
+
+En mayo de 2015, Claire Wolf y Mathias Lasser con su proyecto [*iceStorm*](http://www.clifford.at/icestorm/) crearon un conjunto de herramientas Open Source que permitían usar de una manera libre algunos modelos de FPGAs, permitiendo que cualquiera pueda usar ahora estas herramientas. Podéis leer más detalles de esta historia [*en la charla*](https://github.com/Obijuan/myslides/wiki/2016_09_23-Granada-Geek-FPGAs-Libres) de [*Juan González @Obijuan*](https://twitter.com/obijuan_cube?lang=es) que tuvimos el honor de recibir en la OSL en mayo de 2016.
+
+A raíz de este desarrollo se han creado placas Open Hardware que usan FPGAs como la [*IceZum Alhambra*](https://github.com/fpgawars/icezum/wiki) o la [*Alhambra II*](https://github.com/FPGAwars/Alhambra-II-FPGA/wiki) creadas por @obijuan y por el granadino [*Eladio Delgado*](https://twitter.com/eladiodm?lang=es)
+
+Este proyecto también ha permitido la creación de entornos sencillos de usar como [*iceStudio*](https://icestudio.io/) y que nos permiten a todos usar esta tecnología que antes sólo estaba en manos de unos pocos.
+
+Finalmente, las mismas empresas que antes obligaban a comprar su software, ahora colaboran en las herramientas libres.
+
+
 
 ## Open Hardware en el laboratorio
 
-Algunos ejmplos de estos proyectos pueden ser estos equipos de laboratorio bioquímito totalmente open-source 
+Veamos algunos ejemplos de estos proyectos como pueden ser estos equipos de laboratorio bioquímico totalmente open-source. Podemos conseguir tanto el diseño de las piezas para imprimir la carcasa, como el diseño de la electrónica o los programas que las controlan.
 
-* Una centrifugadora de materiales biológicos basada en Arduino
+- Una centrifugadora de materiales biológicos basada en Arduino
+
     ![centrifugadora](./images/centrifugadoraOS.jpg)
 
 
@@ -108,13 +173,52 @@ Algunos ejmplos de estos proyectos pueden ser estos equipos de laboratorio bioqu
     ![equipo](./images/miniPCR.jpg)
 
 * O una incubadora biológica
-![equipo 3](./images/incubadora.jpg)
+    ![equipo 3](./images/incubadora.jpg)
+
 
 Con estos materiales podríamos hacer (salvo por el tema de la seguridad biológica de las muestras) los tests PCRs que se hace en los hospitales
 
-Y estos equipos no son cosa de "frikis", la mismísima revista Nature se ha hecho eco en varios artículos sobre el tema: 
+Y estos equipos no son cosa de "frikis", la mismísima revista Nature se ha hecho eco en varios artículos sobre el tema:
+
 * [A DIY approach to automating your lab](https://www.nature.com/articles/d41586-019-01590-z)
 * [How DIY technologies are democratizing science](https://www.nature.com/articles/d41586-020-03193-5)
+
+Además el que dispongamos de toda la información sobre un producto le asegura una vida útil más larga, facilita la posibilidad de reparaciones y nos evita la dependencia con la empresa que nos lo vendió.
+
+## Makers ante la pandemia
+
+Durante la pandemia y ante la petición de ayuda de los sanitarios, equipos de makers de toda España se autoorganizaron para aportar todo tipo de equipamiento de protección, consiguiendo generar miles de caretas, salvaorejas, adaptadores para equipos de respiración ... 
+
+
+![](https://cdn01.diariandorra.ad/uploads/imagenes/bajacalidad/2020/04/01/_93internet_a6304f26.jpg?4a3562ca6397e9fcab79ffef6549d7c2)
+
+Equipo de protección EPI
+
+![](https://lh3.googleusercontent.com/proxy/vejHQnwk2SABgjyehJcvexPFsLNwGyWC3jz6gqbxi_BmAu-gJKLTMBLLqVa-oWQliNRdV6KO1FUX82y1I_ugurOsKypDrY_bB4ZJsvQvwSRAnfvqdwwRoj7GHQ3cAQgboA)
+
+Respirador
+![](https://s2.lanzadigital.com/wp-content/uploads/2020/05/M%C3%A1scara-EPI-300x533.jpg)
+
+![](https://i.blogs.es/6916c2/etjjne-xkakh-q2/1366_2000.jpeg)
+![](https://i.blogs.es/bbabbf/etorgcaxgaaufc3/1366_2000.jpg)
+### Mascarilla libremask
+![](https://album.mediaset.es/eimg/10000/2020/11/09/clipping_cfVQvR_2976.jpg?w=480)
+
+
+## Resumen
+
+Todo esto ha fomentado la difusión de las licencias libres haciendo conscientes a la población de las ventajas que aporta el trabajar en abierto y la publicación de manera libre y detallada de nuestros proyectos
+
+Estas herramientas que están al alcance de la mayoría de la población, cada vez más sencillas de usar y fáciles de encontrar, ha permitido que casi cualquiera pueda crear todo tipo de proyectos, más o menos complejos.
+
+Por ejemplo estas herramientas de prototipado rápido nos permiten crear equipamiento para laboratorio, máquinas que tienen el 90% de la funcionalidad de los equipos y con un coste de menos del 10%.
+
+Además, **la naturaleza colaborativa y abierta de estos proyectos, nos anima a tomar un papel más activo en ellos**, permitiéndonos a los usuarios de manera natural participar en el desarrollo de estos equipos, mejorando iterativamente sus prestaciones, aportando mejoras a la funcionalidad, documentación o ejemplos de uso.
+
+En definitiva, todo este ecosistema abierto de conocimientos nos hace día a día tener más control sobre la tecnología que usamos, **permitiéndonos pasar de meros consumidores a dueños de esta tecnología**
+
+Además al ser dueños de toda esta información podemos modificar nuestros proyectos, repararlos, mejorar sus prestaciones, traducir la información a otros idiomas,... en definitiva, tenemos control total sobre ellos.
+
 
 ## Recursos
 
@@ -129,17 +233,3 @@ Y estos equipos no son cosa de "frikis", la mismísima revista Nature se ha hech
 
 [Cómo documentar proyectos Open Hardware](https://www.linkedin.com/pulse/c%25C3%25B3mo-documentar-proyectos-de-hardware-abierto-parte-cesar-garcia/)
 
-
-## Makers ante la pandemia
-
-Durante la pandemia y ante la petición de ayuda de los sanitarios, equipos de makers de toda España se autoorganizaron para aportar todo tipo de equipamiento de protección, consiguiendo generar miles de caretas, salvaorejas, adaptadores para equipos de respiración ... 
-
-### Equipo de protección EPI
-![](https://cdn01.diariandorra.ad/uploads/imagenes/bajacalidad/2020/04/01/_93internet_a6304f26.jpg?4a3562ca6397e9fcab79ffef6549d7c2)
-![](https://lh3.googleusercontent.com/proxy/vejHQnwk2SABgjyehJcvexPFsLNwGyWC3jz6gqbxi_BmAu-gJKLTMBLLqVa-oWQliNRdV6KO1FUX82y1I_ugurOsKypDrY_bB4ZJsvQvwSRAnfvqdwwRoj7GHQ3cAQgboA)
-![](https://s2.lanzadigital.com/wp-content/uploads/2020/05/M%C3%A1scara-EPI-300x533.jpg)
-### Respirador
-![](https://i.blogs.es/6916c2/etjjne-xkakh-q2/1366_2000.jpeg)
-![](https://i.blogs.es/bbabbf/etorgcaxgaaufc3/1366_2000.jpg)
-### Mascarilla libremask
-![](https://album.mediaset.es/eimg/10000/2020/11/09/clipping_cfVQvR_2976.jpg?w=480)
