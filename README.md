@@ -204,6 +204,8 @@ Finalmente, las mismas empresas que antes obligaban a comprar su software, ahora
 
 ## Open Hardware en el laboratorio
 
+TODO: red de  laboratorios open  https://www.hackteria.org/
+
 Veamos algunos ejemplos de estos proyectos como pueden ser estos equipos de laboratorio bioquímico totalmente open-source. Podemos conseguir tanto el diseño de las piezas para imprimir la carcasa, como el diseño de la electrónica o los programas que las controlan.
 
 ![](http://hackteria.org/wiki/File:Urs_tools.jpg)
@@ -211,15 +213,29 @@ Veamos algunos ejemplos de estos proyectos como pueden ser estos equipos de labo
 
 - Una centrifugadora de materiales biológicos basada en Arduino
 
-    ![centrifugadora](./images/centrifugadoraOS.jpg)
+    ![centrifugadora](./images/DesktopHDDCentrifuge.jpg)
+> Centrifugadora hecha a partir de un disco duro
+> Imagen de http://hackteria.org/wiki/Hacked_Hard-disc_Centrifuge
+> Licencia: Creative Commons Attribution 3.0  
 
 
 * O una termocicladora (para hacer PCRs) totalmente open 
-    ![equipo](./images/miniPCR.jpg)
+![equipo](./images/Pcr_MyPersonalOpenPCR.jpg)
+> Open Termocicladora o PCR
+> Imagen de http://hackteria.org/wiki/Wild_OpenPCR
+> Licencia: Creative Commons Attribution 3.0 
+
 
 * O una incubadora biológica
-    ![equipo 3](./images/incubadora.jpg)
+![equipo 3](./images/Incubator_Setup.jpeg)
+> Incubadora DIY
+> Imagen de http://hackteria.org/wiki/DIY_Incubator
+> Licencia: Creative Commons Attribution 3.0 
 
+![](./images/Urs_tools.jpg)
+> *Material de Open Labs*
+> Imagen de http://hackteria.org/wiki/Generic_Lab_Equipment#Lab_tools
+> Licencia: Creative Commons Attribution 3.0 
 
 Con estos materiales podríamos hacer (salvo por el tema de la seguridad biológica de las muestras) los tests PCRs que se hace en los hospitales
 
