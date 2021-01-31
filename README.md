@@ -71,6 +71,45 @@ También hemos visto cómo la filosofía Open Source es útil también para las 
 
 Tanto el desarrollo de estos proyectos, como su nacimiento (como en el caso de Arduino, donde sus creadores se conocieron a través de Internet) no hubiera sido posible sin la existencia de Comunidades Open Hardware, donde se han compartido ideas, dudas, proyectos,....
 
+
+## ¿Qué entendemos por Open Hardware?
+
+Vamos a ponernos un poco más técnicos y a ver los detalles de qué debe cumplir un proyecto para ser calificado como Open Hardware.
+
+Realmente la denominación más correcta sería Open Source Hardware (OSHW son las siglas en inglés), es decir Hardware de tipo Open Source, aunque solemos abreviarlo como Open Hardware.
+
+Existe una asociación internacional dedicada al cuidado de la licencia Open Hardware y de su estandarización: la [Open Source Hardware Association](https://www.oshwa.org/), abreviado la OSHWA.
+
+Veamos la [definición que hace la OSHWA del  Open Source Hardware]((https://www.oshwa.org/definition/spanish/))
+
+> "Hardware de Fuentes Abiertas (OSHW en inglés) es aquel hardware cuyo diseño se hace disponible públicamente para que cualquier persona lo pueda estudiar, modificar, distribuir, materializar y vender, tanto el original como otros objetos basados en ese diseño"
+
+Obviamente las fuentes tienen que estar disponibles en formatos abiertos y libremente accesibles para que cualquiera puede realiza el derecho de modificicación.
+
+Se recomienda usar componentes y materiales fácilmente disponibles e intentar que los procesos de producción necesarios sean lo más sencillos y libres posibles.
+
+Todo proyecto Open Hardware debe incluir, también con licencia abierta, toda la documentación necesaria para que este sea reproducible y modificable.
+
+Si como parte del proyecto se incluye algún software, éste debe ser licenciado como Open source o al menos que todos los interfaces del mismo estén perfectamente documentados como para que se pueda crear un software que sea Open Source.
+
+La OSHWA también ha creado el [logo del Open Hardware](https://www.oshwa.org/open-source-hardware-logo/)
+
+![Logo del Open Hardware](./images/2000px-Open-source-hardware-logo.svg.png)
+> Logo del Open Source Hardware
+> Imagen de https://commons.wikimedia.org/wiki/File:Open-source-hardware-logo.svg
+> Licencia  Creative Commons ShareAlike 1.0
+
+### Certificación OSHW
+
+La asociación también se encarga de certificar cuando un producto/proyecto cumple todo lo establecido y le podemos. Para ello [realiza un proceso](https://certification.oshwa.org/process.html) en el que comprueba que tango el hardware, el software, como la documentación y las posibles marcad del proyecto cumplen con todo lo establecido.
+
+En [esta página](https://certification.oshwa.org/list.html) podemos ver un listado de los proyectos Open Hardware certificados. 
+
+Entre ellos podemos encontrar la [placa Echidna Black](https://certification.oshwa.org/es000010.html) una placa derivada de Arduino que han creado unos [profesores españoles](http://echidna.es/) con los que he tenido la suerte de colaborar.
+
+También podemos hacer una búsqueda por los proyectos liberados por empresas como Adafruit y nos encontraremos que son más de 400 los proyectos certificados como Open Hardware por esta empresa.
+
+
 ## Comunidades Open Hardware
 
 El desarrollo del **Open Hardware** ha permitido la aparición de productos como [***Arduino***](https://www.arduino.cc/) o [***micro:bit***](https://microbit.org/) cuyo diseño y documentación han sido publicadas completamente bajo [***licencias Libres***](https://es.wikipedia.org/wiki/Contenido_libre), pero algunos de estos productos nacieron de la comunicación entre usuarios de comunidades online.
