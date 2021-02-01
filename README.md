@@ -224,10 +224,19 @@ Podemos encontrar todos los diseños y la documentación de sus productos en su 
 
 Al mismo tiempo empezó a vender kits con los componentes para soldar los proyectos. A día de hoy sus productos se venden en todo el mundo y la empresa la formaban más de 100 personas ya en 2016, año en facturaba 45 millones de dólares.
 
-
 Otra empresa con una enorme vocación Open Source, es [Sparkfun](https://www.sparkfun.com/) a partir de cuyos diseños se han creado muchas otras empresas especializadas en mejorar o abaratar sus diseños. La empresa nació en 2003 en 2015 ya tenía más de 150 empleados. Todos los productos de Sparfun tienen licencia Open Source
 
 No podemos olvidarnos por supuesto de  [*Arduino*](https://www.arduino.cc/) que a día de hoy es una gran empresa, que vende sus productos en todo mundo y a la que debemos el éxito del movimiento Maker.
+
+Arduino ha seguido generando multitud de placas, compartiéndolas siempre con licencia Open Source, también a permitido generar una enorme comunidad online que ha compartido sus proyectos.
+
+Durante todos los años ha celebrado reuniones de usuarios locales conocidos como los ["Arduino Day"](https://day.arduino.cc/)
+
+La empresa [m5Stack](https://m5stack.com) nació en 2015, con la idea de facilitar el trabajo a de la creación de prototipos y creó un conjunto de módulos de distinta funcionalidad y que se conectaban con facilidad. A día de hoy son un estándar y sus productos no paran de crecer beneficiado por la interacción con sus usuarios que tienen [todos los detalles para mejorarlos](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Core/M5-Core-Schematic(20171206).pdf).
+
+Aunque algunas empresas aprovechan la difusión de los diseños Open Hardware para producir copias baratas y ganar así cuota de mercado, muchas empresas optan por mejorar los diseños, y proporcionar a los usuarios una mejor experiencia, tanto en la documentación con en los productos. 
+
+Es por ejemplo el caso de la empresa china [Elecfreaks](https://www.elecfreaks.com/) que desde sus inicio creó placas compatibles con Arduino pero que tenían multitud de mejoras como el mítico Freaduino y el formato de todos los sensores que los demás fabricantes fueron adoptando.
 
 ## El Open Hardware llega a los fabricantes de CPUs
 
