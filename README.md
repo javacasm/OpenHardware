@@ -1,6 +1,6 @@
 # Open Hardware
 
-## Charla sobre Open Hardware para el curso de Software Libre de la UGR
+## Módulo sobre Open Hardware para el MOOC  de Software Libre de la UGR
 
 ## Licencia CC by SA 
 
