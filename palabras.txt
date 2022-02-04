@@ -1,0 +1,14 @@
+Arduino
+FPGA
+micropython
+Hardware
+impresora3D
+OSHW
+OHWR
+Kicad
+Adafruit
+RISCV
+RepRap
+FreeCad
+OpenPCR
+DIY

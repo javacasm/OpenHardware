@@ -52,3 +52,17 @@ c) un formato de vídeo
 a) un python pequeño que se ejecuta más despacio
 b) una versión de python pensada para funcionar en microcontroladores
 c) una versión antigua de python
+
+1. En los laboratorios usamos equipos  ...
+a) fabricados por empresas reputadas
+b) comprados a precios bien altos
+c) de buena calidad, ya sean fabricados por empresas o construidos por nosotros mismos siguiendo diseños DIY
+
+1. La CPU de un ordenador...
+a) siempre es un diseño propietario y cerrado
+b) puede seguir un diseño abierto como el procesador RISC-V
+c) siempre es un diseño cerrado
+
+1. El que existan equipos con diseños Open Hardware, como las impresoras 3D, impide que existan equipos similares con diseños cerrados
+a) Falso
+b) Verdadero
